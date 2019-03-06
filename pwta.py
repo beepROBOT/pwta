@@ -25,7 +25,7 @@ LOGO = """
 ██║     ╚███╔███╔╝   ██║   ██║  ██║
 ╚═╝      ╚══╝╚══╝    ╚═╝   ╚═╝  ╚═╝
   Password Topology Analyzer v0.1
-  By: Marcel Goulart.
+  By: Marcel Goulart P.
 """
 
 legend = """
