@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from sys import argv
+from subprocess import call
 
 if len(argv) < 2:
 	print("Need a password list")
@@ -16,6 +17,8 @@ CYAN = '\033[96m'
 ENDC = '\033[0m'
 OJTEST = "\033[38;5;215m"
 
+def cls():
+	_tmp = call("clear", shell = True)
 
 LOGO = """
 ██████╗ ██╗    ██╗████████╗ █████╗ 
@@ -24,7 +27,7 @@ LOGO = """
 ██╔═══╝ ██║███╗██║   ██║   ██╔══██║
 ██║     ╚███╔███╔╝   ██║   ██║  ██║
 ╚═╝      ╚══╝╚══╝    ╚═╝   ╚═╝  ╚═╝
-  Password Topology Analyzer v0.1
+  PassWord Topology Analyzer v0.1
   By: Marcel Goulart P.
 """
 
@@ -34,7 +37,7 @@ legend = """
 """
 
 
-
+cls()
 print(OKBLUE + LOGO + ENDC)
 print(legend)
 
