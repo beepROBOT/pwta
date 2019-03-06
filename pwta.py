@@ -29,8 +29,8 @@ LOGO = """
 """
 
 legend = """
-\033[93mU\033[0m = Uppercase       \033[96ml\033[0m = Lowercase
-\033[91mS\033[0m = Special/Symbol  \033[92md\033[0m = Digit
+\033[1m\033[93mU\033[0m = Uppercase       \033[1m\033[96ml\033[0m = Lowercase
+\033[1m\033[91mS\033[0m = Special/Symbol  \033[1m\033[92md\033[0m = Digit
 """
 
 
